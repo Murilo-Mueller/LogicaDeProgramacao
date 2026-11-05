@@ -1,0 +1,7 @@
+divida = float(input("Escreva o valor da sua dívida "))
+print ("| Juros     Quantidade de parcelas    Valor da parcela |")
+print ("|0                           1                   " , (divida / 1) , "|")
+print ("|10               3                " , (((divida * 110) / 100) / 3) , "|")
+print ("|15               6                " , (((divida * 115) / 100) / 6) , "|")
+print ("|20               9                " , (((divida * 120) / 100) / 9) , "|")
+print ("|25               12               " , (((divida * 125) / 100) / 12) , "|")
